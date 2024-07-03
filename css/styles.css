@@ -1,0 +1,62 @@
+.tituloPrincipal{
+    display: inline;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.tituloDeportivo, .tituloTemporal, .tituloEspectaculos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.subTituloDeportivo, .subTituloTemporal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenidoDeportivo, .contenidoTemporal{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(56, 52, 52);
+}
+.linkExterno{
+    color: blue;
+    cursor: pointer;
+    font-size: 20px;
+}
+.linkExterno:hover{
+    color: orangered;
+}
+/*.tituloTemporal{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.subTituloTemporal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenidoTemporal{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(56, 52, 52);
+}*/
+.container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.resaltaPelicula {
+    display: inline;
+    color: chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: black;
+}
+.container1__1, .container1__2{
+    background-color: tan;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.carteleraCine, .carteleraTeatro{
+    font-weight: bold;
+}
+ul>li#peliculaResaltada {
+    
+    color: chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: black;
+}
