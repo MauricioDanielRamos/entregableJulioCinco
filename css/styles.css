@@ -14,13 +14,17 @@
     color: rgb(56, 52, 52);
 }
 .linkExterno{
-    color: blue;
-    cursor: pointer;
+    
     font-size: 20px;
+    color: blue;
 }
 .linkExterno:hover{
+    cursor: pointer;
     color: orangered;
 }
+/*.linkExterno:visited{
+    color: rgb(218, 23, 159);
+}*/
 /*.tituloTemporal{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
